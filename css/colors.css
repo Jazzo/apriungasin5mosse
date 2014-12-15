@@ -19,11 +19,13 @@ p {
 /* SPLASH IMAGE */
 
 .m-splash-image {
-    color: #fff;
+    color: #000;
 }
 
 .m-splash-image p {
-    color: #fff;
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
 }
 
 .m-splash-image h1 {

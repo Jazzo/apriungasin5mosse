@@ -4,7 +4,7 @@ Version: 1.2
 */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 a {
@@ -173,18 +173,19 @@ h2 {
 }
 
 .m-splash-image a {
-    padding: 13px 25px;
-    border: 2px solid #fff;
+    padding: 6px 12px;
+    border: none;
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    font-size: 1.2em;
+    font-size: 20px;
     margin-right: 5px;
     margin-bottom: 5px;
+    background-color: #f42460;
 }
 
 .m-splash-image a:hover {
-    color: #ea5555;
+    color: #f42460;
     background-color: #fff;
 }
 
@@ -226,7 +227,7 @@ h2 {
 }
 
 .slide-background {
-    background: url('../img/slider-background.gif') no-repeat center;
+    background: url('../img/Sfondo_01_home.jpg') no-repeat center;
 }
 
 /*
@@ -683,6 +684,9 @@ h2 {
     margin-bottom: 17px;
 }
 
+.flexslider .slides img.logo {
+    margin-bottom: 50px;
+}
 .flex-control-paging li a {
     border: 2px solid #fff;
     background-color: transparent;
@@ -1155,6 +1159,11 @@ h2 {
 .white-popup .mfp-close:active {
     top: 0px;
 }
+
+
+/* Personalized "APRI UN GAS IN 5 MOSSE" */
+
+
 
 
 /* RESPONSIVE */
