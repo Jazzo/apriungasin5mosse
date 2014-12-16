@@ -110,13 +110,13 @@ Smooth scrolling on link clicking
 
  /* ==============================================
 background video load
-=============================================== */
+=============================================== 
 
 jQuery(function(){
     'use strict';
     jQuery(".player").mb_YTPlayer();
 });
-
+*/
 
 
  /* ==============================================
@@ -157,7 +157,7 @@ Setting slider height on load
 
  /* ==============================================
   Google maps
-=============================================== */
+=============================================== 
     
     var iconBase = 'img/google-marker.png';
     var myLatlng = new google.maps.LatLng(40.7240252, -73.9941299);
@@ -181,7 +181,7 @@ Setting slider height on load
         map: map,
         icon: iconBase
     });
-
+*/
 
  /* ==============================================
 Navigation Dock
@@ -267,7 +267,7 @@ jQuery(window).load(function() {
 
 /*================================================
  Twitter script
- ================================================*/
+ ================================================
 jQuery(document).ready(function() {
     jQuery('.flexslider-twitter').tweet({
         modpath: 'inc/tweet/twitter/index.php',
@@ -277,7 +277,7 @@ jQuery(document).ready(function() {
         template: "{avatar}{text}{join}{time}"
     });
 });
-
+*/
 
 jQuery(window).load(function() {
     'use strict';

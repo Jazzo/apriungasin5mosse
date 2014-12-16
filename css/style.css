@@ -172,23 +172,6 @@ h2 {
     border: none;
 }
 
-.m-splash-image a {
-    padding: 6px 12px;
-    border: none;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    font-size: 20px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-    background-color: #f42460;
-}
-
-.m-splash-image a:hover {
-    color: #f42460;
-    background-color: #fff;
-}
-
 .m-splash-image h1 {
     margin-bottom: 0.4em;
     font-weight: 700;
@@ -219,7 +202,7 @@ h2 {
 }
 
 .splash-text {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .m-splash-image {    
@@ -227,7 +210,7 @@ h2 {
 }
 
 .slide-background {
-    background: url('../img/Sfondo_01_home.jpg') no-repeat center;
+    background: url('../img/Sfondo_01_home.jpg') no-repeat bottom;
 }
 
 /*
@@ -1164,12 +1147,40 @@ h2 {
 /* Personalized "APRI UN GAS IN 5 MOSSE" */
 
 
+.m-splash-image a {
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+a.btn .btn_box 
+{
+    padding: 3px 11px;
+    border: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    width: 215px;
+    display: inline-block;
+}
+a.btn .btn_arrow
+{
+    width: 76px;
+    height: 37px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+a.btn .btn_box_home { background-color: #f42460; color: #fff; }
+a.btn:hover .btn_box_home { background-color: #fff; color: #000; }
+a.btn .btn_arrow_home { background: url('../img/btn/btn_home.png') no-repeat; }
+a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_home_hover.png') no-repeat; }
+
 
 
 /* RESPONSIVE */
 
 
-@media (max-width: 1200px) {
+@media (max-width: 980px) {
     .navbar-header {
         float: none;
     }
@@ -1211,7 +1222,7 @@ h2 {
 }
 
 
-@media (max-width: 1200px)  {
+@media (max-width: 980px)  {
     .m-posts .news-content {
         padding: 25px;
     }
@@ -1237,7 +1248,7 @@ h2 {
     }
 }
 
-@media (max-width: 980px)  {
+@media (max-width: 900px)  {
     .gallery-post {
         width: 33.3%;
     }
