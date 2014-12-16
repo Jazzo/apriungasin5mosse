@@ -347,8 +347,15 @@ h2 {
     padding: 18px 0;
 }
 
+/* This overwrite the bootstrap defaults value */
+.nav li {
+    font-family: 'Titillium Web', sans-serif;
+}
+/* This overwrite the bootstrap defaults value */
+
 .navbar .navbar-collapse .nav li a {
-    border: 1px solid transparent;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
 }
 
 .navbar ul li a {
@@ -362,8 +369,7 @@ h2 {
 .navbar-default .navbar-nav>.active>a, 
 .navbar-default .navbar-nav>.active>a:hover, 
 .navbar-default .navbar-nav>.active>a:focus{
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    color: #1edfb9;
+    color: #ffe600;
     background-color: transparent;
     box-shadow: none;
     -moz-box-shadow: none;
@@ -373,7 +379,7 @@ h2 {
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     background-color: transparent;
-    color: #1edfb9;
+    color: #ffe600;
 }
 
 .half-image img {

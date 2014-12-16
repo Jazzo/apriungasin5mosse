@@ -41,12 +41,11 @@ p {
 /*navigation*/
 
 .l-navigation-wrap {
-    background-color: #34495e;
+    background-color: #3c434b;
 }
 
 .navbar-default .navbar-nav>.active>a {
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: #ffe600;
 }
 
 .paralax-section1 h1, .paralax-section1 h2, .paralax-section1 h3, .paralax-section1 h4, .paralax-section1 h5, .paralax-section1 h6,  {
