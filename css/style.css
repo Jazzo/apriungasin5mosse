@@ -355,7 +355,8 @@ h2 {
 
 .navbar .navbar-collapse .nav li a {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
+    padding: 10px 12px;
 }
 
 .navbar ul li a {
@@ -427,7 +428,7 @@ h2 {
 
 /* PAGE SECTION */
 .l-content-wrap .l-page-section {
-    padding: 150px 0;
+    padding: 110px 0;
     margin: 10px 0 0 0;
 }
 
@@ -1150,16 +1151,13 @@ h2 {
 }
 
 
-/* Personalized "APRI UN GAS IN 5 MOSSE" */
+/* ***********************************************************************
+    Personalized "APRI UN GAS IN 5 MOSSE" 
+*/
 
-
-.m-splash-image a {
+/** GENERAL BUTTON */
+a.btn .btn_box  {
     font-size: 20px;
-    margin: 5px auto;
-}
-
-a.btn .btn_box 
-{
     padding: 3px 11px;
     border: none;
     border-radius: 0;
@@ -1168,18 +1166,41 @@ a.btn .btn_box
     width: 215px;
     display: inline-block;
 }
-a.btn .btn_arrow
-{
+a.btn .btn_arrow {
     width: 76px;
     height: 37px;
     margin-top: 10px;
     display: inline-block;
 }
 
+
+/* HOME - SPLASH */
+.splash-text .p1 { max-width: 510px; margin: 0 auto 10px auto; }
+.splash-text .p2 { max-width: 640px; margin: 0 auto 10px auto; }
 a.btn .btn_box_home { background-color: #f42460; color: #fff; }
-a.btn:hover .btn_box_home { background-color: #fff; color: #000; }
-a.btn .btn_arrow_home { background: url('../img/btn/btn_home.png') no-repeat; }
-a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_home_hover.png') no-repeat; }
+a.btn:hover .btn_box_home { background-color: #fff; color: #f42460; }
+a.btn .btn_arrow_home { background: url('../img/btn/btn_base.png') no-repeat; }
+a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') no-repeat; }
+
+
+/* MOSSA 1 */
+#fate-gruppo { background: url('../img/Sfondo_02_mossa1.jpg') repeat-x bottom; }
+#fate-gruppo p { color: #000; line-height: 25px; }
+#fate-gruppo .img-people { margin-bottom: 5px; }
+#fate-gruppo .separator { margin: 25px 0 0 0; }
+#fate-gruppo .titolo_m1 { color: #ff6900; font-size: 54px; margin-bottom: 5px; }
+#fate-gruppo .p_m1 { font-size: 24px; }
+a.btn .btn_box_m1 { background-color: #ff6900; color: #fff; }
+a.btn:hover .btn_box_m1 { background-color: #fff; color: #ff6900; }
+a.btn .btn_arrow_m1 { background: url('../img/btn/btn_base.png') no-repeat; }
+a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') no-repeat; }
+
+
+
+
+
+
+
 
 
 
