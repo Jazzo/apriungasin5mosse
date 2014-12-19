@@ -1185,7 +1185,8 @@ a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') n
 
 /* MOSSA 1 */
 #fate-gruppo { background: url('../img/Sfondo_02_mossa1.jpg') repeat-x bottom; }
-#fate-gruppo p { color: #000; line-height: 25px; }
+#fate-gruppo p { color: #000; font-size: 20px; line-height: 25px; }
+#fate-gruppo .p3 { max-width: 690px; margin: 0 auto 10px auto; }
 #fate-gruppo .img-people { margin-bottom: 5px; }
 #fate-gruppo .separator { margin: 25px 0 0 0; }
 #fate-gruppo .titolo_m1 { color: #ff6900; font-size: 54px; margin-bottom: 5px; }
