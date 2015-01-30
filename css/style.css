@@ -1227,7 +1227,11 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
 #altri-gas .des-button { width: 295px; border: 3px solid #009500; color: #009500;}
 #altri-gas .des-button:hover { background-color: #009500; color: #fff;}
 
+/* MOSSA 5 */
+#primo-ordine { background: url('../img/Sfondo_06_mossa5.jpg') center; } 
+#primo-ordine .titolo_big1 { color: #ba10a3; }
 
+.flexslider-m5 { margin-bottom: 0; }
 
 
 /* RESPONSIVE */

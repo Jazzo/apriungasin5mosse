@@ -266,18 +266,18 @@ jQuery(window).load(function() {
 });
 
 /*================================================
- Twitter script
- ================================================
+ Flexslider Mossa 5
+ ================================================ */
+
 jQuery(document).ready(function() {
-    jQuery('.flexslider-twitter').tweet({
-        modpath: 'inc/tweet/twitter/index.php',
-        count: 3,
-        username: 'envato',
-        loading_text: 'loading twitter feed...',
-        template: "{avatar}{text}{join}{time}"
+    jQuery('.flexslider-m5').flexslider({
+        controlNav: false,
+        prevText: "",
+        nextText: "",
+        slideshow: false,        
     });
 });
-*/
+
 
 jQuery(window).load(function() {
     'use strict';
@@ -427,29 +427,6 @@ jQuery('#contact').waypoint(function() {
     },
             {
                 offset: '70%',
-                triggerOnce: true
-            });
-
-    //testimonials section
-    jQuery('.l-skills-section').waypoint(function() {
-        //easy pie chart    
-
-  
-            jQuery('.chart').easyPieChart({
-                easing: 'easeOutBounce',
-                lineWidth: 16,
-                size: 175,
-                scaleColor: false,
-                barColor: '#34495e',
-                trackColor: '#e5e5e5',
-                onStep: function(from, to, percent) {
-                    jQuery(this.el).find('.percent').text(Math.round(percent));
-                }
-            });
-       
-    },
-            {
-                offset: '50%',
                 triggerOnce: true
             });
 
