@@ -1567,10 +1567,12 @@ p {
 
 .news-button {
     background-color: #fff;
-    border: 1px solid #0028ff;
+    border: 3px solid #0028ff;
     color: #0028ff;
     width: 100%;
     font-size: 18px;
+    height: 48px;
+    padding: 8px 3px;
 }
 
 .news-button:hover {
