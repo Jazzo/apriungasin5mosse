@@ -153,7 +153,7 @@ Setting slider height on load
 =============================================== */
     
     var browserHeight = jQuery(window).height();
-    jQuery('.m5-splash-image .flexslider li, .splash-image-wrap').css('height', browserHeight);
+    jQuery('.m-splash-image .flexslider li, .splash-image-wrap').css('height', browserHeight);
 
  /* ==============================================
   Google maps
@@ -257,7 +257,7 @@ Isotope
 
 jQuery(window).load(function() {
     'use strict';
-    jQuery('.flexslider-splash-m5').flexslider({
+    jQuery('.flexslider-splash').flexslider({
         controlNav: false,
         prevText: "",
         nextText: "",
