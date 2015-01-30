@@ -93,7 +93,7 @@ Smooth scrolling on link clicking
 =============================================== */
     jQuery(function() {
         'use strict';
-         jQuery('.navbar a[href*=#]:not([href=#]), .m-splash-image .btn').click(function() {
+         jQuery('.navbar a[href*=#]:not([href=#]), .btn').click(function() {
           if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -153,7 +153,7 @@ Setting slider height on load
 =============================================== */
     
     var browserHeight = jQuery(window).height();
-    jQuery('.m-splash-image .flexslider li, .splash-image-wrap').css('height', browserHeight);
+    jQuery('.m5-splash-image .flexslider li, .splash-image-wrap').css('height', browserHeight);
 
  /* ==============================================
   Google maps
@@ -257,7 +257,7 @@ Isotope
 
 jQuery(window).load(function() {
     'use strict';
-    jQuery('.flexslider-splash').flexslider({
+    jQuery('.flexslider-splash-m5').flexslider({
         controlNav: false,
         prevText: "",
         nextText: "",
@@ -372,7 +372,7 @@ jQuery('#gallery').waypoint(function() {
         jQuery('.nav li:nth-child(6)').addClass('active');
 });
 
-jQuery('#team').waypoint(function() {
+jQuery('#cosa-comprare').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(7)').addClass('active');
 });
@@ -468,10 +468,10 @@ jQuery('#contact').waypoint(function() {
                 triggerOnce: true
             });
 
-    //team section
-    jQuery('.l-team-section').waypoint(function() {      
+    //cosa-comprare section
+    jQuery('.l-cosa-comprare-section').waypoint(function() {      
                                         
-        jQuery('.l-team-section .opacity').each(function(index) {
+        jQuery('.l-cosa-comprare-section .opacity').each(function(index) {
             var self = this;
             setTimeout(function() {
                 jQuery(self).toggleClass('opacity-on');             
@@ -577,8 +577,8 @@ navigation active change
         });
 
 
-    //team section
-        jQuery('.l-team-section .opacity').each(function(index) {
+    //cosa-comprare section
+        jQuery('.l-cosa-comprare-section .opacity').each(function(index) {
             var self = this;
             setTimeout(function() {
                 jQuery(self).toggleClass('opacity-on');             
