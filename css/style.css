@@ -528,10 +528,8 @@ h2 {
 }
 
 .news-content {
-    padding: 40px 40px 45px 40px;
-    border-left: 1px solid #ebebeb;
-    border-right: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    padding: 0px;
+    margin-top: 20px;
     float: left;
     width: 100%;
     margin-bottom: 45px;
@@ -602,7 +600,7 @@ h2 {
 .image-hover {
     width: 100%;
     height: 100%;
-    background-color: #1abc9c;
+    background-color: #0028ff;
     z-index: 10;
     display: table;
     -ms-transform: scale(0); /* IE 9 */
@@ -1204,8 +1202,12 @@ a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') n
 #chiarite-idee { background: url('../img/Sfondo_03_mossa2_modulo.jpg') repeat; }
 #chiarite-idee .titolo_big1 { color: #0028ff; }
 #chiarite-idee .separator { margin: 15px 0 0 0; }
-#chiarite-idee .p4 { max-width: 690px; }
+#chiarite-idee .p4 { max-width: 630px; }
 #chiarite-idee .evidenzia { color: #0028ff;}
+a.btn .btn_box_m2 { background-color: #0028ff; color: #fff; }
+a.btn:hover .btn_box_m2 { background-color: #fff; color: #0028ff; }
+a.btn .btn_arrow_m2 { background: url('../img/btn/btn_base.png') no-repeat; }
+a.btn:hover .btn_arrow_m2 { background: url('../img/btn/btn_hover_mossa2.png') no-repeat; }
 
 
 
@@ -1496,7 +1498,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-    color: #6d6d6d;
+    color: #000;    
 }
 
 /*heading border*/
@@ -1564,14 +1566,16 @@ p {
 }
 
 .news-button {
-    background-color: #1abc9c;
-    border: 1px solid #1abc9c;
-    color: #fff;
+    background-color: #fff;
+    border: 1px solid #0028ff;
+    color: #0028ff;
+    width: 100%;
+    font-size: 18px;
 }
 
 .news-button:hover {
-    background-color: transparent;
-    color: #1abc9c;    
+    background-color: #0028ff;
+    color: #fff;    
 }
 
 .image-hover .categories a, .image-hover .categories {
