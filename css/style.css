@@ -315,6 +315,7 @@ h2 {
 
 .m-navbar {
     margin: 0 auto 0 auto;
+    padding: 0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -332,6 +333,8 @@ h2 {
 
 .navbar-collapse {
     max-height: none;
+    padding-left: 0;
+    padding-right: 0;    
 }
 .navbar-toggle  {
     border-radius: 0px;
@@ -339,12 +342,12 @@ h2 {
     -moz-border-radius: 10px;
     height: 50px;
     width: 50px;
-    margin: 20px 0 0 0;
     border: 2px solid #fff;
 }
 
 .nav {
-    padding: 18px 0;
+    padding: 4px 0;
+    float: none!important;
 }
 
 /* This overwrite the bootstrap defaults value */
@@ -1167,7 +1170,7 @@ a.btn .btn_arrow {
     display: inline-block;
 }
 
-.titolo_big1 { font-size: 54px; color: #ff6900; margin-bottom: 5px; }
+.titolo_big1 { font-size: 54px; line-height: 54px; color: #ff6900; margin-bottom: 5px; }
 .sottotitolo_big1 { font-size: 24px; color: #000; }
 .paragrafo_big1 { font-size: 20px; color: #000; line-height: 25px; margin: 0 auto 10px auto; }
 
@@ -1216,22 +1219,30 @@ a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') n
 
 /* MOSSA 4 */
 #altri-gas { background: url('../img/Sfondo_05_mossa4.jpg') center; } 
-#altri-gas .titolo_big1 { color: #009500; }
+#altri-gas .titolo_big1 { color: #008c00; }
 #altri-gas .separator { margin: 15px 0 0 0; }
 #altri-gas .pm4 { max-width: 475px; }
-a.btn .btn_box_m4 { background-color: #009500; color: #fff; }
-a.btn:hover .btn_box_m4 { background-color: #fff; color: #009500; }
+a.btn .btn_box_m4 { background-color: #008c00; color: #fff; }
+a.btn:hover .btn_box_m4 { background-color: #fff; color: #008c00; }
 a.btn .btn_arrow_m4 { background: url('../img/btn/btn_base.png') no-repeat; }
 a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') no-repeat; }
 #altri-gas h5 { font-family: 'Titillium Web', sans-serif; font-size: 18px; color: #000; }
-#altri-gas .des-button { width: 295px; border: 3px solid #009500; color: #009500;}
-#altri-gas .des-button:hover { background-color: #009500; color: #fff;}
+#altri-gas .des-button { width: 295px; border: 3px solid #008c00; color: #008c00;}
+#altri-gas .des-button:hover { background-color: #008c00; color: #fff;}
+#altri-gas .col-lg-2, #altri-gas .col-md-2, #altri-gas .col-sm-2 { width: 20%; }
 
 /* MOSSA 5 */
 #primo-ordine { background: url('../img/Sfondo_06_mossa5.jpg') center; } 
-#primo-ordine .titolo_big1 { color: #ba10a3; }
-
+#primo-ordine .titolo_big1 { color: #bb00eb; }
+#primo-ordine h3 { color: #bb00eb; }
+#primo-ordine .pm5 { max-width: 600px; margin: 0 auto; }
 .flexslider-m5 { margin-bottom: 0; }
+a.btn .btn_box_m5 { background-color: #bb00eb; color: #fff; }
+a.btn:hover .btn_box_m5 { background-color: #fff; color: #bb00eb; }
+a.btn .btn_arrow_m5 { background: url('../img/btn/btn_base.png') no-repeat; }
+a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') no-repeat; }
+.flexslider:hover .flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
+.flexslider:hover .flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
 
 
 /* RESPONSIVE */
@@ -1260,6 +1271,7 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
     .navbar-nav {
         float: none!important;
         margin-top: 7.5px;
+        margin-left: 12px;        
     }
     .navbar-nav>li {
         float: none;
@@ -1379,6 +1391,10 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
     .container {
         padding-left: 25px;
         padding-right: 25px;
+    }
+    
+    .container-fluid {
+        padding: 0;
     }
     
     .form-wrapper {
