@@ -1249,7 +1249,7 @@ a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') n
 .flexslider:hover .flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
 .flexslider:hover .flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
 
-/* MOSSA 6 */
+/* MOSSA 6 (CONTINUATE COSI) */
 #continuate { background: url('../img/Sfondo_06_continuate_modulo.png') repeat; } 
 #continuate .titolo_big1 { color: #0096ff; }
 #continuate .separator { margin: 15px 0 0 0; }
@@ -1264,6 +1264,12 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
 #continuate .terre-re { background-color: #b68f48; }
 #continuate .acquabenecomune { background-color: #00dafc; }
 #continuate .fermentonaturale { background-color: #cc73f0; }
+
+/* CONTATTI */
+#contatti  { background: url('../img/Sfondo_07_contatti_modulo.png') repeat; } 
+#contatti .separator { margin: 15px 0 0 0; }
+#contatti .pmc { max-width: 850px; margin: 0 auto; }
+#contatti .pmc-footer { font-size: 16px; line-height: 20px; }
 
 
 /* RESPONSIVE */
@@ -1778,7 +1784,9 @@ p {
 
 
 .l-map-section .m-heading-border {
-    background-color: #d66969;
+    background-color: #ff6900;
+    width: 250px;
+    height: 1px;
 }
 
 .l-contactus-section h1, .l-contactus-section h2, .l-contactus-section h3, .l-contactus-section h4, .l-contactus-section h5, .l-contactus-section h6 {
