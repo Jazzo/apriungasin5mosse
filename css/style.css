@@ -887,7 +887,8 @@ h2 {
 }
 
 .gallery-hover-wrap h5 a {
-    color: #fff;
+    color: #000;
+    font-weight: bold;    
 }
 
 .gallery-hover-wrap h5 a:hover {
@@ -900,9 +901,11 @@ h2 {
 }
 
 .gallery-cell h5 {
-    font-size: 1.8em;
-    font-style: italic;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+    line-height: 25px;
     margin-bottom: 0;
+    color: #000;
 }
 
 .gallery-category {
@@ -914,10 +917,12 @@ h2 {
 }
 
 .title-border {
-    width: 100px;
-    height: 1px;
-    background-color: #fff;
-    display: inline-block;  
+    width: 170px;
+    height: 3px;
+    background-color: #000;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 .member-description {
@@ -1221,7 +1226,7 @@ a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') n
 #altri-gas { background: url('../img/Sfondo_05_mossa4.jpg') center; } 
 #altri-gas .titolo_big1 { color: #008c00; }
 #altri-gas .separator { margin: 15px 0 0 0; }
-#altri-gas .pm4 { max-width: 475px; }
+#altri-gas .pm4 { max-width: 600px; }
 a.btn .btn_box_m4 { background-color: #008c00; color: #fff; }
 a.btn:hover .btn_box_m4 { background-color: #fff; color: #008c00; }
 a.btn .btn_arrow_m4 { background: url('../img/btn/btn_base.png') no-repeat; }
@@ -1243,6 +1248,22 @@ a.btn .btn_arrow_m5 { background: url('../img/btn/btn_base.png') no-repeat; }
 a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') no-repeat; }
 .flexslider:hover .flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
 .flexslider:hover .flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
+
+/* MOSSA 6 */
+#continuate { background: url('../img/Sfondo_06_continuate_modulo.png') repeat; } 
+#continuate .titolo_big1 { color: #0096ff; }
+#continuate .separator { margin: 15px 0 0 0; }
+#continuate .pm6 { max-width: 600px; margin: 0 auto; }
+a.btn .btn_box_m6 { background-color: #0096ff; color: #fff; }
+a.btn:hover .btn_box_m6 { background-color: #fff; color: #0096ff; }
+a.btn .btn_arrow_m6 { background: url('../img/btn/btn_base.png') no-repeat; }
+a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') no-repeat; }
+#continuate .coenergia { background-color: #ace00f; }
+#continuate .bancaetica { background-color: #ffff00; }
+#continuate .ghirba { background-color: #e75b56; }
+#continuate .terre-re { background-color: #b68f48; }
+#continuate .acquabenecomune { background-color: #00dafc; }
+
 
 
 /* RESPONSIVE */
@@ -1672,11 +1693,13 @@ p {
 }
 
 .gallery-post h1, .gallery-post h2, .gallery-post h3, .gallery-post h4, .gallery-post h5, .gallery-post h6, .gallery-post p {
-    color: #fff;
+    color: #000;
 } 
 
 .gallery-post p {
-    font-style: italic;
+    font-size: 20px;
+    line-height: 25px;
+    font-style: normal;
 }
 
 /* team section */
