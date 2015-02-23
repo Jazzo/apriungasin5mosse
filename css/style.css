@@ -360,6 +360,7 @@ h2 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 13px;
     padding: 10px 12px;
+    text-decoration: none;
 }
 
 .navbar ul li a {
@@ -888,10 +889,11 @@ h2 {
 .gallery-hover-wrap h5 a {
     color: #000;
     font-weight: bold;    
+    text-decoration: none;
 }
 
 .gallery-hover-wrap h5 a:hover {
-    opacity: 0.6;
+    color: #fff;
 }
 
 .gallery-cell {
@@ -1246,7 +1248,7 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
 #primo-ordine { background: url('../img/Sfondo_06_mossa5.jpg') center; } 
 #primo-ordine .titolo_big1 { color: #bb00eb; }
 #primo-ordine h3 { color: #bb00eb; }
-#primo-ordine .pm5 { max-width: 690px; margin: 0 auto; }
+#primo-ordine .pm5 { max-width: 690px; }
 .flexslider-m5 { margin-bottom: 0; }
 a.btn .btn_box_m5 { background-color: #bb00eb; color: #fff; }
 a.btn:hover .btn_box_m5 { background-color: #fff; color: #bb00eb; }
@@ -1651,7 +1653,13 @@ p {
 
 .image-hover .categories a, .image-hover .categories {
     color: #fff;
+    text-decoration: none;
 }
+
+.image-hover .categories a:hover {
+    color: rgb(149, 245, 253);
+}
+
 
 .categories .m-heading-border {
     background-color: #fff;
