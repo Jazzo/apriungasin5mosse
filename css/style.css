@@ -542,7 +542,6 @@ h2 {
     padding: 15px 25px;
     text-transform: uppercase;
     font-size: 1.1em;
-    margin: 30px 0 0 0;
     display: inline-block;
 }
 
@@ -1165,7 +1164,7 @@ a.btn .btn_box  {
     border-radius: 0;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
-    width: 215px;
+    width: 260px;
     display: inline-block;
 }
 a.btn .btn_arrow {
@@ -1226,15 +1225,15 @@ a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') n
 /* MOSSA 4 */
 #altri-gas { background: url('../img/Sfondo_05_mossa4.jpg') center; } 
 #altri-gas .titolo_big1 { color: #008c00; }
-#altri-gas .separator { margin: 15px 0 0 0; }
+#altri-gas .separator { margin: 50px 0 0 0; }
 #altri-gas .pm4 { max-width: 690px; }
 a.btn .btn_box_m4 { background-color: #008c00; color: #fff; }
 a.btn:hover .btn_box_m4 { background-color: #fff; color: #008c00; }
 a.btn .btn_arrow_m4 { background: url('../img/btn/btn_base.png') no-repeat; }
 a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') no-repeat; }
-#altri-gas h5 { font-family: 'Titillium Web', sans-serif; font-size: 18px; color: #000; }
-#altri-gas .des-button { width: 295px; border: 3px solid #008c00; color: #008c00;}
-#altri-gas .des-button:hover { background-color: #008c00; color: #fff;}
+#altri-gas h5 { font-family: 'Titillium Web', sans-serif; font-size: 18px; color: #000; line-height: 21px; margin-top: 6px; }
+#altri-gas .des-button { width: 295px; border: 3px solid #008c00; color: #008c00; }
+#altri-gas .des-button:hover { background-color: #008c00; color: #fff; }
 #altri-gas .col-lg-2, #altri-gas .col-md-2, #altri-gas .col-sm-2 { width: 20%; }
 
 /* MOSSA 5 */
@@ -1635,8 +1634,8 @@ p {
     color: #0028ff;
     width: 100%;
     font-size: 18px;
-    height: 48px;
-    padding: 8px 3px;
+    height: 44px;
+    padding: 4px 3px;
 }
 
 .news-button:hover {
