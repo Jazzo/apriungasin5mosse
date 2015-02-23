@@ -1204,7 +1204,7 @@ a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') n
 #chiarite-idee { background: url('../img/Sfondo_03_mossa2_modulo.jpg') repeat; }
 #chiarite-idee .titolo_big1 { color: #0028ff; }
 #chiarite-idee .separator { margin: 15px 0 0 0; }
-#chiarite-idee .pm2 { max-width: 630px; }
+#chiarite-idee .pm2 { max-width: 690px; }
 #chiarite-idee .evidenzia { color: #0028ff;}
 a.btn .btn_box_m2 { background-color: #0028ff; color: #fff; }
 a.btn:hover .btn_box_m2 { background-color: #fff; color: #0028ff; }
@@ -1214,8 +1214,9 @@ a.btn:hover .btn_arrow_m2 { background: url('../img/btn/btn_hover_mossa2.png') n
 /* MOSSA 3 */
 #cosa-comprare { background: url('../img/Sfondo_04_mossa3_modulo.png') repeat; } 
 #cosa-comprare .titolo_big1 { color: #d7272f; }
-#cosa-comprare .separator { margin: 15px 0 0 0; }
-#cosa-comprare .pm3 { max-width: 475px; }
+#cosa-comprare .separator { margin: 25px 0 0 0; }
+#cosa-comprare .pm3 { max-width: 690px; }
+#cosa-comprare h5 { text-decoration: underline; }
 a.btn .btn_box_m3 { background-color: #d7272f; color: #fff; }
 a.btn:hover .btn_box_m3 { background-color: #fff; color: #d7272f; }
 a.btn .btn_arrow_m3 { background: url('../img/btn/btn_base.png') no-repeat; }
@@ -1226,7 +1227,7 @@ a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') n
 #altri-gas { background: url('../img/Sfondo_05_mossa4.jpg') center; } 
 #altri-gas .titolo_big1 { color: #008c00; }
 #altri-gas .separator { margin: 15px 0 0 0; }
-#altri-gas .pm4 { max-width: 600px; }
+#altri-gas .pm4 { max-width: 690px; }
 a.btn .btn_box_m4 { background-color: #008c00; color: #fff; }
 a.btn:hover .btn_box_m4 { background-color: #fff; color: #008c00; }
 a.btn .btn_arrow_m4 { background: url('../img/btn/btn_base.png') no-repeat; }
@@ -1240,7 +1241,7 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
 #primo-ordine { background: url('../img/Sfondo_06_mossa5.jpg') center; } 
 #primo-ordine .titolo_big1 { color: #bb00eb; }
 #primo-ordine h3 { color: #bb00eb; }
-#primo-ordine .pm5 { max-width: 600px; margin: 0 auto; }
+#primo-ordine .pm5 { max-width: 690px; margin: 0 auto; }
 .flexslider-m5 { margin-bottom: 0; }
 a.btn .btn_box_m5 { background-color: #bb00eb; color: #fff; }
 a.btn:hover .btn_box_m5 { background-color: #fff; color: #bb00eb; }
@@ -1253,7 +1254,7 @@ a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') n
 #continuate { background: url('../img/Sfondo_06_continuate_modulo.png') repeat; } 
 #continuate .titolo_big1 { color: #0096ff; }
 #continuate .separator { margin: 15px 0 0 0; }
-#continuate .pm6 { max-width: 600px; margin: 0 auto; }
+#continuate .pm6 { max-width: 690px; margin: 0 auto; }
 a.btn .btn_box_m6 { background-color: #0096ff; color: #fff; }
 a.btn:hover .btn_box_m6 { background-color: #fff; color: #0096ff; }
 a.btn .btn_arrow_m6 { background: url('../img/btn/btn_base.png') no-repeat; }
