@@ -144,9 +144,6 @@ lightbox
     });
 
 
-   jQuery('.image-link').magnificPopup({type: 'image'});
-
-
 
  /* ==============================================
 Setting slider height on load
