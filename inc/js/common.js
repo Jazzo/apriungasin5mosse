@@ -336,45 +336,43 @@ var isMobile = {
 
 // if not mobile waypoint will be turned on
 if(!isMobile.any()) {
-
-
 //setting active menu
-jQuery('#page-section').waypoint(function() {
+jQuery('#splash-image-wrap').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:first-child').addClass('active');
 });
 
-jQuery('.what-we-do-section').waypoint(function() {
+jQuery('#fate-gruppo').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(2)').addClass('active');
 });
 
-jQuery('.m-posts').waypoint(function() {
+jQuery('#chiarite-idee').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(3)').addClass('active');
 });
 
-jQuery('.testimonials-paralax').waypoint(function() {
+jQuery('#cosa-comprare').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(4)').addClass('active');
 });
 
-jQuery('#skills').waypoint(function() {
+jQuery('#altri-gas').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(5)').addClass('active');
 });
 
-jQuery('#gallery').waypoint(function() {
+jQuery('#primo-ordine').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(6)').addClass('active');
 });
 
-jQuery('#cosa-comprare').waypoint(function() {
+jQuery('#continuate').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(7)').addClass('active');
 });
 
-jQuery('#contact').waypoint(function() {
+jQuery('#contatti').waypoint(function() {
         jQuery('.nav li').removeClass('active');
         jQuery('.nav li:nth-child(8)').addClass('active');
 });
