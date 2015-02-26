@@ -248,27 +248,13 @@ Isotope
 
 });
 
- /* ==============================================
-  Splash screen flex slider
-=============================================== */
-
-jQuery(window).load(function() {
-    'use strict';
-    jQuery('.flexslider-splash').flexslider({
-        controlNav: false,
-        prevText: "",
-        nextText: "",
-        slideshow: false,        
-    });
-});
-
 /*================================================
  Flexslider Mossa 5
  ================================================ */
 
 jQuery(document).ready(function() {
     jQuery('.flexslider-m5').flexslider({
-        controlNav: false,
+        controlNav: true,
         prevText: "",
         nextText: "",
         slideshow: false,        
@@ -287,25 +273,6 @@ jQuery('.page-loader').css('display', 'none');
     opacity: 1
   }, 1000);
         
-        
-/* ==============================================
-Testimonials flexslider
-=============================================== */
-    jQuery('.flexslider-testimonials').flexslider({
-        prevText: "",
-        nextText: ""
-    });
-    
-    
-/* ==============================================
-Twitter flexslider
-=============================================== */
-    
-    jQuery('.flexslider-twitter').flexslider({
-        prevText: "",
-        nextText: "",
-        directionNav: false
-    });
     
     
 /* ==============================================
@@ -336,46 +303,47 @@ var isMobile = {
 
 // if not mobile waypoint will be turned on
 if(!isMobile.any()) {
-//setting active menu
-jQuery('#splash-image-wrap').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:first-child').addClass('active');
-});
+    
+    //setting active menu
+    jQuery('#splash-image-wrap').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:first-child').addClass('active');
+    });
 
-jQuery('#fate-gruppo').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(2)').addClass('active');
-});
+    jQuery('#fate-gruppo').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(2)').addClass('active');
+    });
 
-jQuery('#chiarite-idee').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(3)').addClass('active');
-});
+    jQuery('#chiarite-idee').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(3)').addClass('active');
+    });
 
-jQuery('#cosa-comprare').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(4)').addClass('active');
-});
+    jQuery('#cosa-comprare').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(4)').addClass('active');
+    });
 
-jQuery('#altri-gas').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(5)').addClass('active');
-});
+    jQuery('#altri-gas').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(5)').addClass('active');
+    });
 
-jQuery('#primo-ordine').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(6)').addClass('active');
-});
+    jQuery('#primo-ordine').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(6)').addClass('active');
+    });
 
-jQuery('#continuate').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(7)').addClass('active');
-});
+    jQuery('#continuate').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(7)').addClass('active');
+    });
 
-jQuery('#contatti').waypoint(function() {
-        jQuery('.nav li').removeClass('active');
-        jQuery('.nav li:nth-child(8)').addClass('active');
-});
+    jQuery('#contatti').waypoint(function() {
+            jQuery('.nav li').removeClass('active');
+            jQuery('.nav li:nth-child(8)').addClass('active');
+    });
 
 
 

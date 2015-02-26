@@ -102,8 +102,8 @@ h2 {
     background-color: #eb5556;
 }
 
-.flexslider-splash .flex-direction-nav li a:hover {
-    opacity: 0.3;
+.flexslider-m5 .flex-direction-nav li a:hover {
+    opacity: 1;
 }
 
 .menu-wrap {
@@ -119,9 +119,8 @@ h2 {
     width: 100%;
 }
 
-.flexslider-splash .flex-direction-nav li a {
+.flexslider-m5 .flex-direction-nav li a {
     text-indent: 99999px;
-    background:url('../img/arrow.png') no-repeat center;
     padding: 40px;
     border-radius: 50%;
     opacity: 1;
@@ -130,25 +129,11 @@ h2 {
     -o-transition: color 0 ease-in;
     transition: none;
 }
+.flexslider-m5 .flex-direction-nav li a.flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
+.flexslider-m5 .flex-direction-nav li a.flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
+.flexslider-m5 .flex-direction-nav .flex-next {top: 290px;right: 20px; opacity: 1;} 
+.flexslider-m5 .flex-direction-nav .flex-prev {top: 290px; left: 20px; opacity: 1;}
 
-
-
-.flexslider-splash .flex-direction-nav .flex-next {right: 80px; opacity: 1;} 
-.flexslider-splash .flex-direction-nav .flex-prev {left: 80px; opacity: 1;}
-
-.flexslider-splash .flex-direction-nav li a.flex-next {        
-    -ms-transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-}
-
-.flexslider-splash .flex-direction-nav li a.flex-prev {        
-    -ms-transform: rotate(90deg);
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
 
 .splash-content {
     display: table-cell;
@@ -228,42 +213,12 @@ h2 {
     position: fixed;
 }
 
-.slide-background {
-    background: url('../img/Sfondo_01_home.jpg') no-repeat bottom;
-}
-
-/*
-.video-overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #05bff4;
-    opacity: 0.5;
-    z-index: 10;
-}
-*/
-.flexslider-splash {
+.flexslider-m5 {
     margin-bottom: 0;
 }
 
-.flexslider-splash li {
+.flexslider-m5 li {
     overflow: hidden; 
-}
-
-/* video background */
-
-.video-background {
-    min-width: 100%;
-    min-height: 100%;
-    position: fixed;
-    z-index: -100 !important;
-}
-
-.video-overlay {
-    width: 100%;
-    height: 100%;
-    background: url('../img/slider-pattern.png');
-    position: absolute;
 }
 
 .arrow-wrap {
@@ -1208,9 +1163,11 @@ a.btn .btn_arrow {
 
 
 /* HOME - SPLASH */
-.splash-text p { margin: 0 auto 10px auto; } 
-.splash-text .p1 { max-width: 510px; }
-.splash-text .p2 { max-width: 640px; }
+#apri-un-gas { background: url('../img/Sfondo_01_home.jpg') no-repeat bottom; }
+#apri-un-gas img.logo { margin-bottom: 50px; margin-top: 70px; }
+#apri-un-gas p { margin: 0 auto 10px auto; } 
+#apri-un-gas .p1 { max-width: 510px; }
+#apri-un-gas .p2 { max-width: 640px; }
 a.btn .btn_box_home { background-color: #f42460; color: #fff; }
 a.btn:hover .btn_box_home { background-color: #fff; color: #f42460; }
 a.btn .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') no-repeat; }
@@ -1274,8 +1231,6 @@ a.btn .btn_box_m5 { background-color: #bb00eb; color: #fff; }
 a.btn:hover .btn_box_m5 { background-color: #fff; color: #bb00eb; }
 a.btn .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') no-repeat; }
 a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_bianco.png') no-repeat; }
-.flexslider:hover .flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
-.flexslider:hover .flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
 
 /* MOSSA 6 (CONTINUATE COSI) */
 #continuate { background: url('../img/Sfondo_06_continuate_modulo.png') repeat; } 
@@ -1355,10 +1310,6 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
         margin-top: 10px;
     }
     
-    .flex-direction-nav {
-        display: none;
-    }
-    
     .m-team-member:hover .l-description-wrap {
         top: 260px;
     }
@@ -1401,6 +1352,8 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
     h3 {
         font-size: 2.3em;
     }
+    
+    #primo-ordine h3 { margin-top: 50px;}
 
     h4 {
         font-size: 1.9em;
@@ -1470,7 +1423,7 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
     
     .about-me-center img {
         margin: 20px 0;
-}
+    }
 }
 
 @media (max-width: 660px)  {
@@ -1482,14 +1435,27 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
     .sottotitolo_big1 { font-size: 26px; line-height: 26px; }
     .paragrafo_big1 { font-size: 18px; line-height: 18px; }
     
-    .flexslider .slides img {
+    #primo-ordine img.m5slides {
         width: 85%;    
     }
     
+    .flex-direction-nav {
+        display: none;
+    }
+
     .m-splash-image a {
         float: left;
         width: 100%;
     }
+    
+    .flexslider-m5 .flex-control-nav {
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        z-index: 1000;
+    }
+    
     
     .m-splash-image h1 {
         font-size: 2.8em;
@@ -1507,6 +1473,10 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
 @media (max-width: 460px)  {
     .m-splash-image h1 {
         font-size: 1.7em;
+    }
+    
+    #apri-un-gas img.logo {
+        width: 85%;
     }
     
     .titolo_big1 { font-size: 32px; line-height: 32px; }        
@@ -1529,6 +1499,16 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
     .m-image-wrap img {
         width: 85%;    
     }
+    
+    .flexslider-m5 .flex-control-nav {
+        width: 100%;
+        position: absolute;
+        bottom: 10px;
+        text-align: center;
+        z-index: 1000;
+    }
+    
+    #primo-ordine h3 { font-size: 24px; margin-top: 30px; }
     
     .arrow-wrap {
         display: none;
@@ -1597,13 +1577,6 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repe
     
     .gallery-cell > img {
         width: 22%;
-    }
-}
-
-/* RESPONSIVE LOGO */
-@media (max-width: 590px) {
-    .flexslider .slides img.logo {
-        width: 85%;
     }
 }
 
@@ -1702,7 +1675,7 @@ p {
 /* TESTIMONIALS SLIDER */
 
 .flex-control-paging li a:hover, .flex-control-paging li a.flex-active {
-    border: 2px solid #62b7a4;
+    border: 2px solid #bb00eb;
     background-color: transparent;
 }
 
