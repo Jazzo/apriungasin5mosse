@@ -163,9 +163,28 @@ h2 {
     text-align: center;
 }
 
-.m-splash-image p {
-    font-size: 1.4em;
+/* SPLASH IMAGE */
+
+.m-splash-image {
+    color: #000;
 }
+
+.m-splash-image p {
+    color: #000;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.m-splash-image h1 {
+    color: #fff;
+}
+
+/* read more button in splash image*/
+
+.m-splash-image a {
+    color: #fff;
+}
+
 
 .video-background .mb_YTVPlayer {
     padding: 0;
@@ -677,6 +696,7 @@ h2 {
 
 .flexslider .slides img.logo {
     margin-bottom: 50px;
+    width: initial;
 }
 .flex-control-paging li a {
     border: 2px solid #fff;
@@ -1183,7 +1203,7 @@ a.btn .btn_arrow {
 }
 
 .titolo_big1 { font-size: 54px; line-height: 54px; color: #ff6900; margin-bottom: 5px; }
-.sottotitolo_big1 { font-size: 24px; color: #000; }
+.sottotitolo_big1 { font-size: 24px; line-height: 24px; color: #000; }
 .paragrafo_big1 { font-size: 20px; color: #000; line-height: 25px; margin: 0 auto 10px auto; }
 
 
@@ -1193,8 +1213,8 @@ a.btn .btn_arrow {
 .splash-text .p2 { max-width: 640px; }
 a.btn .btn_box_home { background-color: #f42460; color: #fff; }
 a.btn:hover .btn_box_home { background-color: #fff; color: #f42460; }
-a.btn .btn_arrow_home { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') no-repeat; }
+a.btn .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') no-repeat; }
+a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_bianco.png') no-repeat; }
 
 /* MOSSA 1 */
 #fate-gruppo { background: url('../img/Sfondo_02_mossa1.jpg') repeat-x bottom; }
@@ -1204,8 +1224,8 @@ a.btn:hover .btn_arrow_home { background: url('../img/btn/btn_hover_home.png') n
 #fate-gruppo .titolo_big1 { color: #ff6900; }
 a.btn .btn_box_m1 { background-color: #ff6900; color: #fff; }
 a.btn:hover .btn_box_m1 { background-color: #fff; color: #ff6900; }
-a.btn .btn_arrow_m1 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') no-repeat; }
+a.btn .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') no-repeat; }
+a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 
 /* MOSSA 2 */
 #chiarite-idee { background: url('../img/Sfondo_03_mossa2_modulo.jpg') repeat; }
@@ -1215,8 +1235,8 @@ a.btn:hover .btn_arrow_m1 { background: url('../img/btn/btn_hover_mossa1.png') n
 #chiarite-idee .evidenzia { color: #0028ff;}
 a.btn .btn_box_m2 { background-color: #0028ff; color: #fff; }
 a.btn:hover .btn_box_m2 { background-color: #fff; color: #0028ff; }
-a.btn .btn_arrow_m2 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m2 { background: url('../img/btn/btn_hover_mossa2.png') no-repeat; }
+a.btn .btn_arrow_m2 { background: url('../img/btn/btn_hover_mossa2.png') no-repeat; }
+a.btn:hover .btn_arrow_m2 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 
 /* MOSSA 3 */
 #cosa-comprare { background: url('../img/Sfondo_04_mossa3_modulo.png') repeat; } 
@@ -1226,8 +1246,8 @@ a.btn:hover .btn_arrow_m2 { background: url('../img/btn/btn_hover_mossa2.png') n
 #cosa-comprare h5 { text-decoration: underline; }
 a.btn .btn_box_m3 { background-color: #d7272f; color: #fff; }
 a.btn:hover .btn_box_m3 { background-color: #fff; color: #d7272f; }
-a.btn .btn_arrow_m3 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') no-repeat; }
+a.btn .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') no-repeat; }
+a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 #cosa-comprare h5 { font-family: 'Titillium Web', sans-serif; font-size: 20px; color: #000; }
 
 /* MOSSA 4 */
@@ -1237,8 +1257,8 @@ a.btn:hover .btn_arrow_m3 { background: url('../img/btn/btn_hover_mossa3.png') n
 #altri-gas .pm4 { max-width: 690px; }
 a.btn .btn_box_m4 { background-color: #008c00; color: #fff; }
 a.btn:hover .btn_box_m4 { background-color: #fff; color: #008c00; }
-a.btn .btn_arrow_m4 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') no-repeat; }
+a.btn .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') no-repeat; }
+a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 #altri-gas h5 { font-family: 'Titillium Web', sans-serif; font-size: 18px; color: #000; line-height: 21px; margin-top: 6px; }
 #altri-gas .des-button { width: 295px; border: 3px solid #008c00; color: #008c00; text-decoration: none; }
 #altri-gas .des-button:hover { background-color: #008c00; color: #fff; }
@@ -1252,8 +1272,8 @@ a.btn:hover .btn_arrow_m4 { background: url('../img/btn/btn_hover_mossa4.png') n
 .flexslider-m5 { margin-bottom: 0; }
 a.btn .btn_box_m5 { background-color: #bb00eb; color: #fff; }
 a.btn:hover .btn_box_m5 { background-color: #fff; color: #bb00eb; }
-a.btn .btn_arrow_m5 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') no-repeat; }
+a.btn .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') no-repeat; }
+a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 .flexslider:hover .flex-prev { background: url('../img/freccia_sx_m5.png') no-repeat; width: 100px; height: 100px; }
 .flexslider:hover .flex-next { background: url('../img/freccia_dx_m5.png') no-repeat; width: 100px; height: 100px; }
 
@@ -1264,8 +1284,8 @@ a.btn:hover .btn_arrow_m5 { background: url('../img/btn/btn_hover_mossa5.png') n
 #continuate .pm6 { max-width: 690px; margin: 0 auto; }
 a.btn .btn_box_m6 { background-color: #0096ff; color: #fff; }
 a.btn:hover .btn_box_m6 { background-color: #fff; color: #0096ff; }
-a.btn .btn_arrow_m6 { background: url('../img/btn/btn_base.png') no-repeat; }
-a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') no-repeat; }
+a.btn .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') no-repeat; }
+a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_bianco.png') no-repeat; }
 #continuate .coenergia { background-color: #ace00f; }
 #continuate .bancaetica { background-color: #ffff00; }
 #continuate .ghirba { background-color: #e75b56; }
@@ -1425,8 +1445,8 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
     }
     
     .container {
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 5px;
+        padding-right: 5px;
     }
     
     .container-fluid {
@@ -1458,6 +1478,14 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
         top: 320px;
     }
     
+    .titolo_big1 { font-size: 40px; line-height: 40px; }    
+    .sottotitolo_big1 { font-size: 26px; line-height: 26px; }
+    .paragrafo_big1 { font-size: 18px; line-height: 18px; }
+    
+    .flexslider .slides img {
+        width: 85%;    
+    }
+    
     .m-splash-image a {
         float: left;
         width: 100%;
@@ -1481,8 +1509,25 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
         font-size: 1.7em;
     }
     
+    .titolo_big1 { font-size: 32px; line-height: 32px; }        
+    .sottotitolo_big1 { font-size: 18px; line-height: 20px; }
+    .paragrafo_big1 { font-size: 16px; line-height: 20px; }
+    
     .l-logo img {
         width: 150px;
+    }
+    
+    .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    
+    #fate-gruppo .img-people {
+        width: 75%;
+    }
+    
+    .m-image-wrap img {
+        width: 85%;    
     }
     
     .arrow-wrap {
@@ -1490,7 +1535,7 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
     }
     
     .m-splash-image p {
-        font-size: 1em;
+        font-size: 16px;
     }
     
     h1 {
@@ -1548,13 +1593,19 @@ a.btn:hover .btn_arrow_m6 { background: url('../img/btn/btn_hover_mossa6.png') n
     
     .gallery-cell h5 {
         font-size: 1.5em;
-}
+    }
     
     .gallery-cell > img {
         width: 22%;
     }
 }
 
+/* RESPONSIVE LOGO */
+@media (max-width: 590px) {
+    .flexslider .slides img.logo {
+        width: 85%;
+    }
+}
 
 /*******************************************************************************
 -------- --------- INTEGRATE ORIGINAL COLORS.CSS -------------------------------
@@ -1577,28 +1628,6 @@ p {
 
 .m-heading-border {
     background-color: #62b7a4;
-}
-
-/* SPLASH IMAGE */
-
-.m-splash-image {
-    color: #000;
-}
-
-.m-splash-image p {
-    color: #000;
-    font-size: 20px;
-    line-height: 25px;
-}
-
-.m-splash-image h1 {
-    color: #fff;
-}
-
-/* read more button in splash image*/
-
-.m-splash-image a {
-    color: #fff;
 }
 
 /*navigation*/
