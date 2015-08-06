@@ -246,6 +246,7 @@ jQuery(document).ready(function() {
         prevText: "",
         nextText: "",
         slideshow: false,        
+        animationLoop: false,
     });
 });
 
