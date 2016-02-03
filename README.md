@@ -13,4 +13,5 @@ Web developer: <b>Davide Gullo</b> (G.A.S. Iqbal Masih - RE)<br />
 
 ## Licenza CC per i contenuti
 Tutti i contenuti (testi, immagini, links) sono disponibili pubblicamente sotto licenza CC by-nc-nd 4.0
+
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Licenza Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />Quest'opera è distribuita con Licenza <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale</a>.
